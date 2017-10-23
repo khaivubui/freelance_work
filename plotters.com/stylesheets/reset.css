@@ -49,4 +49,10 @@ table {
 
 body {
   font-family: 'Monda', sans-serif;
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
