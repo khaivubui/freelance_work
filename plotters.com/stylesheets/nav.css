@@ -1,0 +1,23 @@
+nav {
+  padding-top: 70px;
+  width: 100%;
+  background: #27ae60;
+}
+
+nav ul {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex: 1;
+  height: 35px;
+}
