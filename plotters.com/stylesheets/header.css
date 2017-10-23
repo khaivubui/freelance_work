@@ -1,0 +1,20 @@
+header {
+  font-family: 'Julius Sans One', sans-serif;
+  position: fixed;
+  background: #333;
+  color: white;
+  width: 100%;
+}
+
+header .header-content {
+  margin: 10px auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50%;
+}
