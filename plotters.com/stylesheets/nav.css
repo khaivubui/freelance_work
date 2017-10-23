@@ -20,4 +20,9 @@ nav ul li {
   color: white;
   flex: 1;
   height: 35px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background: #2ecc71;
 }
