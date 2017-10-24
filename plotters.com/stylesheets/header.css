@@ -35,7 +35,8 @@ header .header-info {
 }
 
 header .header-info:hover {
-  background: white;
+  /*background: white;
   border-color: white;
-  color: #333;
+  color: #333;*/
+  background: #666;
 }
