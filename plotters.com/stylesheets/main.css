@@ -4,7 +4,7 @@ main {
 
 section {
   max-width: 900px;
-  min-height: 500px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,37 @@ section {
 
 }
 
+.supplies-details {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .supplies-details h1 {
   font-size: 3em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.supplies-details p {
+  text-align: center;
+}
+
+.supplies-details button {
+  color: #27ae60;
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  background: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.supplies-details button:hover {
+  background: #27ae60;
+  border-color: #27ae60;
+  color: white;
 }
