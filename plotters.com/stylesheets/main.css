@@ -18,27 +18,24 @@ section {
   width: 90%;
 }
 
-.supplies {
-
-}
-
-.supplies-details {
-  margin-right: 30px;
+.section-details {
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.supplies-details h1 {
+.section-details h1 {
+  font-weight: 100;
   font-size: 3em;
   margin-bottom: 20px;
 }
 
-.supplies-details p {
+.section-details p {
   text-align: center;
 }
 
-.supplies-details button {
+.section-details button {
   color: #27ae60;
   font-weight: 700;
   font-size: 1em;
@@ -51,8 +48,10 @@ section {
   cursor: pointer;
 }
 
-.supplies-details button:hover {
+.section-details button:hover {
   background: #27ae60;
   border-color: #27ae60;
   color: white;
 }
+
+/* ---------- ---------- ---------- */
