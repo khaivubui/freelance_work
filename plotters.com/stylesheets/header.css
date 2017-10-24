@@ -23,9 +23,19 @@ header .logo img {
 }
 
 header .header-info {
-  font-size: 0.9em;
+  font-size: 1.3em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  border: 1px solid;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header .header-info:hover {
+  background: white;
+  border-color: white;
+  color: #333;
 }
